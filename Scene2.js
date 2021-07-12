@@ -9,7 +9,7 @@ class Scene2 extends Phaser.Scene {
     background.setOrigin(0, 0);
     background.setDepth(2);
     
-    var clickMe = this.add.text(20, 20, 'Click to move differently', { fill: 'white' })
+    var clickMe = this.add.text(375, 750, 'Click to move differently', { fill: 'white' })
     clickMe.setDepth(3);
     
     var particles = this.add.particles('red');
